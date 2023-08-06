@@ -12,6 +12,8 @@ export class NotionMd implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Notion MD',
 		name: 'notionMd',
+		// eslint-disable-next-line n8n-nodes-base/node-class-description-icon-not-svg
+		icon: 'file:free-markdown.png',
 		group: ['transform'],
 		version: 1,
 		description: 'Node to transform markdown and notion blocks',

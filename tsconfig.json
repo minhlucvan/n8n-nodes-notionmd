@@ -1,6 +1,5 @@
 {
 	"compilerOptions": {
-		"rootDir": "nodes",
 		"strict": true,
 		"module": "commonjs",
 		"moduleResolution": "node",
@@ -23,9 +22,9 @@
 		"outDir": "./dist/",
 	},
 	"include": [
-		"credentials/**/*",
 		"nodes/**/*",
 		"nodes/**/*.json",
-		"package.json",
+		"package.json"
 	],
 }
+
